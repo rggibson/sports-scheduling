@@ -22,6 +22,8 @@ How Do I Use the Library to Generate a Schedule?
 
 Compile the library by running `make` in the project's main directory. The library comes with a program called `test` that demonstrates how to use the library.  The program will generate a schedule, print it out to `stdout` and print some statistics for the schedule to `stderr`.  Run `test` with no arguments to display the command line arguments expected by `test`.
 
+This has been tested to work on both Linux with gcc version 4.8.2 and on Windows with mingw.
+
 How Do I Include the Library in My Own Project?
 -----------------------------------------------
 
@@ -36,7 +38,7 @@ Future Extensions
 * Rather than specify the number of games versus teams in the same (different) division, allow for specifying total number of games versus division (non-division) opponents. With this extension, we would ensure that for each divisional (non-divisional) opponent, the number of games played against that opponent is at most one-off from the number of games played against every other divisional (non-divisional) opponent.
 * Allow for matches to be ordered in a more structured manner so that, for example, after any given day, each divisional opponent has been played at most once more than every other divisional opponent.
 
-Feel free to contact me if you would like to see one of these extensions or any other extension implemented sooner rather than later / never.  If you would like to implement one of these extensions yourself, I'm happy to take any pull requests the provide a workable and accurate solution.
+Feel free to contact me if you would like to see one of these extensions or any other extension implemented sooner rather than later / never.  If you would like to implement one of these extensions yourself, I'm happy to take any pull requests for any solution that is workable and accurate.
 
 Contact
 -------

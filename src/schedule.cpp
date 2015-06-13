@@ -121,8 +121,8 @@ SsSchedule::SsSchedule( const ss_schedule_params_t &params )
 	   ++match_idx ) {
 	uint32_t game_num = 0;
 
-	int teamA;
-	int teamB;
+	int teamA = -1; // mingw compains about possibly uninitialized... 
+	int teamB = -1;
 	if( !do_byes ) {
 	  /* Handle the inter-division match first */
 	  assert( params.num_divisions == 2 );
