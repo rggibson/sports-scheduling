@@ -12,8 +12,8 @@ Input:
 Output: A home / away schedule satisfying the inputted conditions with the following properties:
  * Games are split into days with no team playing more than 1 game per day; teams without games have a bye.
  * The schedule is made up over the fewest number of days possible to satisfy the inputted conditions (in other words, the minimum number of byes are used).
- * Each team plays the same number of home and away games, unless the total number of games each team plays is odd; in that case, the number of home and away games are one off.
- * Each pair of teams play the same number of games against each other at one team's home as they do at the other team's home, unless the total number of games between the two teams is odd; in that case, these two numbers are one off.
+ * Each team plays the same number of home and away games, unless the total number of games each team plays is odd; in that case, the number of home and away games are off by one.
+ * Each pair of teams play the same number of games against each other at one team's home as they do at the other team's home, unless the total number of games between the two teams is odd; in that case, these two numbers are off by one.
  * Matches are ordered randomly across the days, with the ability to specify a random number generator seed.
  * Team 1's game is the first game in the list of games each day.
 
